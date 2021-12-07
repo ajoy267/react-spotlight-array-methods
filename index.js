@@ -11,7 +11,7 @@ export const getCountryNames = (countries) => {
 // REQS: use .map
 
 export const getCountryCodes = (countries) => {
-  return countries.map((name) => name.name && name.iso2);
+  return countries.map((name) => [name.name, name.iso2]);
   //this is working
 };
 
