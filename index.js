@@ -12,8 +12,9 @@ export const getCountryNames = (countries) => {
 
 export const getCountryCodes = (countries) => {
   return countries.map((name) => name.name && name.iso2);
+  //this is working
 };
-  
+
 // INPUT: the array of countries from data.js
 // OUTPUT: only countries in Oceana
 // REQS: use .filter
